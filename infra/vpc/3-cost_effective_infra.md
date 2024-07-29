@@ -1,4 +1,4 @@
-# 3. 가성비 서비스 운영을 위한 가성비 인프라 구축법
+# 3. 가성비 서비스 운영을 위한 가성비 인프라 사용 계획
 
 모든 방법을 나열하고 비교 후 여러 대안 혹은 결론을 도출해보겠습니다.<br><br>
 
@@ -18,7 +18,7 @@
 *Airflow를 가볍게 올리는 경우의 pros & cons, 그 방법?
 <br><br>
 
-## 결론: 운영 목적에 따른 계획
+## 운영 목적에 따른 계획
 ### ~9월 또는 10월: 공모전 종료 전
 - 공모전 평가 기준 중 '최신 기술 사용 정도'가 있음
   - 이왕이면 테라폼 코드를 쓸 수 있는 플랫폼을 계속 사용
@@ -47,7 +47,7 @@
 - 크레딧 금액 및 시간(hrs)
 - CPU, 메모리, 디스크, 대역폭, 전송량 spec<br>
 
-사람이 4명이라는 점도 활용할 것..!
+사람이 4명이란 점도 활용할 것..!
 <br><br>
 
 ### 클라우드 플랫폼 혹은 그 산하 서비스
@@ -240,7 +240,6 @@ AWS에서 제공하는 ElasticSearch 솔루션 서비스도 있음.
 ### `단일 계정 멀티 리전` OR `여러 계정 사용`
 - Redshift는 리전마다 새 크레딧이 적용돼서, EC2 등도 그러려나.. 싶었
 - 전자는 서로 다른 리전 간 전송 횟수, 전송량이 늘어 오히려 요금이 많이 나오고 프리티어 차감이 빨라진다 함
-- 
 <br>
 
 
@@ -252,3 +251,4 @@ AWS에서 제공하는 ElasticSearch 솔루션 서비스도 있음.
 [클라우드 서비스 프리티어 별 비교 (AWS / Azure / GCP / Oracle)](https://2mukee.tistory.com/640)
 [Google Cloud vs AWS vs Azure : 클라우드 서비스 비교](https://www.goldenplanet.co.kr/our_contents/blog?number=1025&pn=)
 [GCP, AWS, AZURE, OCI 프리티어 사용기](https://ittraveler.tistory.com/entry/GCP-AWS-AZURE-OCI-%ED%94%84%EB%A6%AC%ED%8B%B0%EC%96%B4-%EC%82%AC%EC%9A%A9%EA%B8%B0-%EB%A6%AC%EB%B7%B0-%EA%B0%80%EC%9E%A5-%EC%A2%8B%EC%9D%80-%ED%94%84%EB%A6%AC%ED%8B%B0%EC%96%B4%EB%8A%94-%EC%96%B4%EB%94%94)
+[크롤링 서버가 소모하는 자원을 직접 계산하는 게 인상 깊었던, 캐치딜 백엔드 개발 이야기 : 합리적인 서버 비용을 찾아서](https://kbs4674.tistory.com/125)
