@@ -132,7 +132,7 @@ Github Actions를 이용해서 파일을 S3에 저장하고 CodeDeploy를 호출
         steps:
         - name: Checkout code
           uses: actions/checkout@v2
-    	# 파일 생성하기 .tgz 파일로 전체 코드들을 압축합니다.
+        # 파일 생성하기 .tgz 파일로 전체 코드들을 압축합니다.
         - name: Make Tar File
           run: |
             tar -cpvzf ./deploy-package.tgz *
